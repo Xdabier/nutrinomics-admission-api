@@ -7,7 +7,7 @@ import { UserModule } from './modules/user/user.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://badiitest:EDrlNyVGjHMDQH2x@nutrinomics-admission.axewu.mongodb.net/nutrinomics',
+      'mongodb+srv://<username>:<password>@nutrinomics-admission.axewu.mongodb.net/nutrinomics',
     ),
     UserModule,
   ],
